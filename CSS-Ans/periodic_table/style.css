@@ -1,0 +1,102 @@
+ body {
+     font-size: 16px;
+ }
+ 
+ section {
+     width: 1600px;
+     max-width: 90%;
+     margin: 0px auto;
+ }
+ 
+ #container {
+     width: 1400px;
+ }
+ 
+ .box {
+     border: 3px solid black;
+     width: 40px;
+     height: 40px;
+     padding: 10px;
+     /* line-height: 50px; */
+     margin: 5px;
+ }
+ 
+ li {
+     list-style-type: none;
+     text-align: center;
+ }
+ 
+ #panelOne,
+ #panelFive {
+     float: left;
+ }
+ 
+ #panelOne>.box,
+ #panelTwo>.box,
+ #panelFive>.box:first-child {
+     background-color: #E06469;
+ }
+ 
+ .panelThree>.box {
+     background-color: #6DA9E4;
+ }
+ 
+ .panelFour>.box,
+ #panelFive>.box {
+     background-color: #F9F54B;
+ }
+ 
+ .bottom>.box {
+     background-color: #1B9C85;
+ }
+ 
+ #panelTwo,
+ .panelFour {
+     float: left;
+     position: relative;
+     top: 73px;
+ }
+ 
+ .panelThree {
+     float: left;
+     position: relative;
+     top: 213px;
+ }
+ 
+ #lowerContainer {
+     float: right;
+     margin-top: 20px;
+     margin-right: 100px;
+ }
+ 
+ .bottom {
+     float: left;
+ }
+ 
+ .number {
+     float: right;
+     margin-left: -90px;
+     margin-top: 30px;
+     margin-right: 22px;
+ }
+ 
+ .box1 {
+     float: left;
+     width: 45px;
+     height: 40px;
+     padding: 10px;
+     margin: 5px;
+ }
+ 
+ #number2 {
+     float: left;
+     margin-top: 130px;
+     margin-left: -10px;
+ }
+ 
+ .box2 {
+     width: 5px;
+     height: 40px;
+     padding: 10px;
+     margin: 5px;
+ }
