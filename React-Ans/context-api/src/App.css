@@ -1,0 +1,19 @@
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    margin-left: 50vh;
+    margin-right: 50vh;
+}
+
+.dashboard {
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.dashboard.dark {
+    background-color: #333;
+    color: #fff;
+}
